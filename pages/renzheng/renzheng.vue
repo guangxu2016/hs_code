@@ -28,8 +28,6 @@
 				</view>
 			</view>
 		</view>
-		
-		
 		<view class="huiyuan">
 			<view>{{ i18n.Intelligent }}</view>
 			<view>
@@ -44,7 +42,6 @@
 				</view>
 			</view>
 		</view>
-
 		<view class="huiyuan">
 			<view>{{ i18n.describe }}</view>
 			<view>
@@ -60,7 +57,6 @@
 			</view>
 		</view>
 
-		
 		<view class="line"></view>
 		<view class="header_top zhifu">
 			<view>{{ i18n.chooseZhiFu }}</view>
@@ -76,7 +72,6 @@
 			</view>
 		</view>
 		<view class="header_top position" v-show="flag">
-			
 			<view class="anniu">
 				<text>合计<text>￥{{prices}}</text></text>
 				<text @click="sure">{{ i18n.zhifu }}</text>
@@ -118,7 +113,7 @@ export default {
 		this.userinfo();
 		uni.setNavigationBarTitle({
 				title: this.$t('index.renzheng')
-		})	
+		})
 	},
 	computed: {
 		i18n() {
@@ -135,7 +130,7 @@ export default {
 			this.payid = id;
 			// this.prices = "";
 			this.prices = price;
-			
+
 		},
 		payTypeIdtwo(id, index,price) {
 			this.isCheck = -1;
@@ -159,7 +154,7 @@ export default {
 			var that = this;
 			that.baseUrl = that.websiteUrl;
 			let token = uni.getStorageSync('storage_token');
-		
+
 			uni.request({
 				url: that.baseUrl + '/api/userInfo',
 				method: 'GET',
@@ -459,14 +454,14 @@ export default {
 
 .position {
 	position: fixed;
-	 bottom: 0%; 
+	 bottom: 0%;
 	/* left: 50%; */
-	 width: 100%; 
+	 width: 100%;
 	/* margin-left: -40%; */
-	 background-color: #fff; 
+	 background-color: #fff;
 	 border-top:1px solid #efefef;
 	 height: 130rpx;
-	
+
 	/* padding: 30rpx; */
 	/* border-radius: 20rpx;
 	-moz-box-shadow: 0px 0px 2px 3px #dfdfdf;
@@ -607,7 +602,7 @@ export default {
 	height: 20rpx;
 	transform: rotate(25deg);
 }
-	
+
 
 .checked {
 	/* color: #fff; */
