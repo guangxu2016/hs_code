@@ -1,0 +1,192 @@
+
+.content {
+	width: 100%;
+}
+.banner {
+	width: 100%;
+	height: 550rpx;
+}
+.banner image {
+	width: 100%;
+	height: 100%;
+}
+.content_box {
+	position: relative;
+	top: -70rpx;
+	width: 92%;
+	padding: 40rpx 30rpx;
+	padding-bottom: 60rpx;
+	border-radius: 20rpx;
+	margin: 0 auto;
+	background-color: #fff;
+	box-shadow: 0px 0px 2px 3px #dfdfdf;
+	overflow: hidden;
+	box-sizing: border-box;
+}
+.choose {
+	width: 100%;
+	margin: 0 auto;
+	/* margin-top: 30rpx; */
+	overflow: hidden;
+}
+.choose .picker {
+	font-size: 32rpx;
+	color: #444;
+	border-bottom: 1px solid #999;
+	width: 43%;
+	height: 60rpx;
+	line-height: 60rpx;
+	text-align: center;
+	float: left;
+}
+.choose image {
+	width: 60rpx;
+	height: 40rpx;
+	float: left;
+	vertical-align: middle;
+	margin: 0rpx 14rpx;
+	margin-top: 15rpx;
+}
+.entry view {
+	width: 100%;
+	margin: 0 auto;
+	height: 90rpx;
+	line-height: 90rpx;
+	padding-left: 15rpx;
+	border-bottom: 1px solid #ccc;
+	/* border: 1px solid #999; */
+	/* border-radius: 10rpx; */
+	margin-top: 30rpx;
+	overflow: hidden;
+	box-sizing: border-box;
+}
+.entry view input {
+	height: 90rpx;
+	line-height: 90rpx;
+	border: none;
+	outline: none;
+	font-size: 32rpx;
+	overflow: hidden;
+	box-sizing: border-box;
+}
+.search {
+	width: 85%;
+	margin: 0 auto;
+	height: 90rpx;
+	line-height: 90rpx;
+	padding-left: 15rpx;
+	border-radius: 20rpx;
+	margin-top: 60rpx;
+	/* background-color: #008000; */
+	background-color: #1676fe;
+	color: #fff;
+	text-align: center;
+}
+.mark {
+	position: fixed;
+	top: 0rpx;
+	left: 0rpx;
+	width: 100%;
+	height: 100%;
+	background-color: #000;
+	opacity: 0.4;
+}
+.con_mon {
+	position: fixed;
+	top: 30%;
+	left: 50%;
+	margin-left: -250rpx;
+	width: 500rpx;
+	height: 320rpx;
+	background-color: #fff;
+	padding-top: 10rpx;
+	border-radius: 15rpx;
+	text-align: center;
+	overflow: hidden;
+	box-sizing: border-box;
+}
+.con_mon view {
+	margin-top: 20rpx;
+}
+.con_mon view image {
+	width: 50rpx;
+	height: 50rpx;
+	vertical-align: middle;
+}
+.con_mon view text {
+	vertical-align: middle;
+}
+.con_mon view:last-child text {
+	width: 40%;
+	height: 65rpx;
+	line-height: 65rpx;
+	text-align: center;
+	margin-top: 20rpx;
+	font-size: 32rpx;
+	display: inline-block;
+	border-radius: 40rpx;
+	margin-left: 5%;
+	color: #fff;
+}
+.con_mon view:last-child text:first-child {
+	background-color: #1676fe;
+}
+.con_mon view:last-child text:last-child {
+	background-color: #b6b6b6;
+}
+.con_mon .kou_chu text {
+	color: #fd3f40;
+	margin-left: 5rpx;
+}
+.con_mon .yu_e text {
+	color: #fd3f40;
+}
+.hhhhh {
+	position: fixed;
+	bottom: 0%;
+	left: 0%;
+	width: 100%;
+
+	background-color: #000;
+	opacity: 0.9;
+	z-index: 22;
+	box-sizing: border-box;
+}
+.box {
+	height: 530rpx;
+	margin-top: 10rpx;
+	overflow: hidden;
+	text-align: center;
+	overflow-y: auto;
+}
+.hhhhh text {
+	display: block;
+	color: #fff;
+	font-size: 32rpx;
+	height: 50rpx;
+	line-height: 50rpx;
+}
+.chooseBtn {
+	overflow: hidden;
+}
+.chooseBtn text {
+	float: left;
+	width: 26%;
+	height: 80rpx;
+	line-height: 80rpx;
+	text-align: center;
+	background-color: #2198f2;
+}
+.chooseBtn text:last-child {
+	float: right;
+	background-color: #007aff;
+}
+.checked {
+	color: #007aff !important;
+	/* background: #007aff; */
+}
+.checkeds {
+	color: #007aff !important;
+	/* background: #007aff; */
+}
+

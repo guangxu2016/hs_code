@@ -1,0 +1,75 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/cross/cross",
+    "pages/lock/lock",
+    "pages/my/my",
+    "pages/query/query",
+    "pages/jilujieguo/jilujieguo",
+    "pages/codeQuery/codeQuery",
+    "pages/chaxunjieguo/chaxunjieguo",
+    "pages/miaoshuchaxun/miaoshuchaxun",
+    "pages/zhuanyi/zhuanyi",
+    "pages/setting/setting",
+    "pages/order/order",
+    "pages/orderdetail/orderdetail",
+    "pages/shoucang/shoucang",
+    "pages/login/login",
+    "pages/register/register",
+    "pages/teggs/teggs",
+    "pages/renzheng/renzheng",
+    "pages/account/account",
+    "pages/moreNum/moreNum",
+    "pages/yitihua/yitihua",
+    "pages/yitihuadetail/yitihuadetail",
+    "pages/yonghuxieyi/yonghuxieyi",
+    "pages/yinsizhengce/yinsizhengce",
+    "pages/aboutUS/aboutUS",
+    "pages/weituidetail/weituidetail",
+    "pages/details/details",
+    "pages/forget/forget",
+    "pages/set/set",
+    "pages/weituo/weituo"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "uni-app",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "color": "#7A7E83",
+    "selectedColor": "#2198F2",
+    "borderStyle": "black",
+    "backgroundColor": "#ffffff",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "static/image/sy1.png",
+        "selectedIconPath": "static/image/sy0.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/lock/lock",
+        "iconPath": "static/image/suo1.png",
+        "selectedIconPath": "static/image/suo0.png",
+        "text": "委托制单"
+      },
+      {
+        "pagePath": "pages/cross/cross",
+        "iconPath": "static/image/kj1.png",
+        "selectedIconPath": "static/image/kj0.png",
+        "text": "跨境关务"
+      },
+      {
+        "pagePath": "pages/my/my",
+        "iconPath": "static/image/gr1.png",
+        "selectedIconPath": "static/image/gr0.png",
+        "text": "个人中心"
+      }
+    ]
+  },
+  "usingComponents": {},
+  "sitemapLocation": "sitemap90.json"
+}

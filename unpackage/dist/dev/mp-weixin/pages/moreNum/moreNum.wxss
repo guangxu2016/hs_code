@@ -1,0 +1,89 @@
+
+.detail {
+	width: 92%;
+	margin: 0 auto;
+	/* margin-top: 40rpx; */
+	background-color: #fff;
+	padding: 30rpx;
+	padding-top: 100rpx;
+	/* 	border-radius: 20rpx;
+	-moz-box-shadow: 0px 0px 2px 3px #dfdfdf;
+	-webkit-box-shadow: 0px 0px 2px 3px #dfdfdf;
+	box-shadow: 0px 0px 2px 3px #dfdfdf; */
+	text-align: center;
+	overflow: hidden;
+	box-sizing: border-box;
+}
+.detail view {
+	color: #888;
+	font-size: 36rpx;
+}
+.xuFei {
+	width: 85%;
+	margin: 0 auto;
+	margin-top: 80rpx;
+	height: 90rpx;
+	line-height: 90rpx;
+	border-radius: 20rpx;
+	margin-top: 60rppx;
+	background-color: #1676fe;
+	color: #fff !important;
+	text-align: center;
+}
+.header_top {
+	position: fixed;
+	top: 30%;
+	left: 50%;
+	width: 80%;
+	margin-left: -40%;
+	background-color: #fff;
+	padding: 30rpx;
+	border-radius: 20rpx;
+	box-shadow: 0px 0px 2px 3px #dfdfdf;
+	z-index: 1;
+	overflow: hidden;
+	box-sizing: border-box;
+}
+.header_top > view:nth-child(2),
+.header_top > view:nth-child(3) {
+	font-size: 34rpx;
+	height: 66rpx;
+	line-height: 66rpx;
+}
+.header_top view radio {
+	-webkit-transform: scale(0.7);
+	        transform: scale(0.7);
+}
+.header_top .anniu {
+	overflow: hidden;
+}
+.header_top .anniu text {
+	width: 40%;
+	text-align: center;
+	height: 70rpx;
+	line-height: 70rpx;
+	display: inline-block;
+	background-color: #007aff;
+	font-size: 32rpx;
+	color: #fff;
+	margin-top: 20rpx;
+	border-radius: 20rpx;
+}
+.header_top .anniu text:first-child {
+	float: left;
+	margin-left: 5%;
+}
+.header_top .anniu text:last-child {
+	float: right;
+	margin-right: 5%;
+}
+.hide {
+	position: fixed;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	background-color: #000000;
+	opacity: 0.5;
+}
+

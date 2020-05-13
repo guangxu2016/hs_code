@@ -1,0 +1,1 @@
+<view class="weituo"><view data-event-opts="{{[['tap',[['zhiDan',['$event']]]]]}}" bindtap="__e">{{''+i18n.weituozhidan+''}}</view><view data-event-opts="{{[['tap',[['guanWu',['$event']]]]]}}" bindtap="__e">{{''+i18n.yitihuafuwu+''}}</view></view>

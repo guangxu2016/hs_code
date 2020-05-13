@@ -1,0 +1,54 @@
+
+.detail {
+	width: 92%;
+	margin: 0 auto;
+	 margin-top: 40rpx; 
+	background-color: #007AFF;
+	/* background-color: #2C405A; */
+	/* background-color: #3F536E; */
+	/* background-color: #fff; */
+	padding: 30rpx;
+	border-radius: 20rpx;
+/* 	-moz-box-shadow: 0px 0px 2px 3px #dfdfdf;
+	-webkit-box-shadow: 0px 0px 2px 3px #dfdfdf;
+	box-shadow: 0px 0px 2px 3px #dfdfdf; */
+	overflow: hidden;
+	box-sizing: border-box;
+}
+.asas {
+	width: 92%;
+		margin: 0 auto;
+		 margin-top: 40rpx; 
+		background-color: #007AFF;
+		padding: 30rpx;
+		border-radius: 20rpx;
+	/* 	-moz-box-shadow: 0px 0px 2px 3px #dfdfdf;
+		-webkit-box-shadow: 0px 0px 2px 3px #dfdfdf;
+		box-shadow: 0px 0px 2px 3px #dfdfdf; */
+		overflow: hidden;
+		box-sizing: border-box;
+}
+.detail view,
+.asas view {
+	height: 60rpx;
+	line-height: 60rpx;
+}
+.detail text,
+.asas text {
+	font-size: 32rpx;
+	display: inline-block;
+}
+.detail view text:first-child {
+	color:#FFF;
+	width: 45%;
+}
+.asas view text:first-child {
+	width: 45%;
+	color:#FFF;
+}
+.detail view text:last-child,
+.asas view text:last-child {
+	color:#FFF;
+}
+
+

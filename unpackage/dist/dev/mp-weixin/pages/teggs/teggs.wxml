@@ -1,0 +1,1 @@
+<view><view><web-view webview-styles="{{webviewStyles}}" src="https://www.teggs.net/"></web-view></view></view>

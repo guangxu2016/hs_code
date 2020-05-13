@@ -1,0 +1,49 @@
+
+.detail {
+	width: 92%;
+	margin: 0 auto;
+	margin-top: 40rpx;
+	background-color: #fff;
+	padding: 20rpx;
+	border-radius: 20rpx;
+	box-shadow: 0px 0px 2px 3px #dfdfdf;
+	overflow: hidden;
+	box-sizing: border-box;
+}
+.detail view > view {
+	/* height: 60rpx; */
+	line-height: 60rpx;
+}
+.detail text {
+	font-size: 30rpx;
+}
+.detail view text:first-child {
+	color: #555;
+}
+.detail view text:last-child {
+	color: #333;
+}
+.detail view text:last-child {
+	margin-left: 10rpx;
+}
+.detail view text:last-child {
+	/* font-weight: 700; */
+	color: #000000;
+}
+.zanwu {
+	text-align: center;
+	margin-top: 200rpx;
+	color: #888;
+	font-size: 32rpx;
+}
+.red,
+.cityss {
+	color: red !important;
+	margin-top: 20rpx;
+	margin-bottom: 10rpx;
+}
+.cityss {
+	font-size: 36rpx !important;
+	margin-bottom: 0rpx !important;
+}
+

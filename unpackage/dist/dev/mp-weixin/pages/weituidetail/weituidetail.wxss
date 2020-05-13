@@ -1,0 +1,42 @@
+
+.detail {
+	width: 92%;
+	margin: 0 auto;
+	margin-top: 40rpx;
+	background-color: #fff;
+	padding: 30rpx;
+	border-radius: 20rpx;
+	box-shadow: 0px 0px 2px 3px #dfdfdf;
+	overflow: hidden;
+	box-sizing: border-box;
+}
+.detail view {
+	/* height: 60rpx; */
+	line-height: 50rpx;
+}
+.detail text {
+	font-size: 30rpx;
+}
+.detail view text:first-child {
+	color: #555;
+}
+.detail view text:last-child {
+	color: #333;
+}
+.detail view text:last-child {
+	margin-left: 10rpx;
+}
+.submit {
+	background-color: #007aff;
+	color: #fff;
+	width: 240rpx !important;
+	margin: 0 auto;
+	margin-top: 30rpx;
+	line-height: 80rpx !important;
+	height: 80rpx !important;
+	border-radius: 20rpx;
+	text-align: center;
+	font-size: 32rpx;
+}
+
+

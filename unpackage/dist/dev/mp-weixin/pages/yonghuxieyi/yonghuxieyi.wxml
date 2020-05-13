@@ -1,0 +1,1 @@
+<view><block wx:if="{{userToken}}"><view class="sdas"><text>{{message}}</text></view></block><block wx:else><view class="go_login"><view>您还没有登陆，请登陆后再查看</view><view data-event-opts="{{[['tap',[['go_login',['$event']]]]]}}" bindtap="__e">去登陆</view></view></block></view>

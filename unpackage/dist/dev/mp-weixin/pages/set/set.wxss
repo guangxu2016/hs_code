@@ -1,0 +1,22 @@
+
+.set view {
+	height: 90rpx;
+	line-height: 90rpx;
+	width: 90%;
+	margin: 0 auto;
+	border-bottom: 1px solid #ccc;
+	overflow: hidden;
+}
+.set view text {
+	float: left;
+	color: #555;
+	font-size: 32rpx;
+}
+.set view image {
+	display: block;
+	width: 40rpx;
+	height: 40rpx;
+	float: right;
+	margin-top: 20rpx;
+}
+
